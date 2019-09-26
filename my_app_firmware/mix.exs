@@ -38,6 +38,8 @@ defmodule MyAppFirmware.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:my_app_ui, path: "../my_app_ui"},
+
       # Dependencies for all targets
       {:nerves, "~> 1.5.0", runtime: false},
       {:shoehorn, "~> 0.6"},
