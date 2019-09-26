@@ -15,4 +15,8 @@ defmodule MyAppFirmware do
   def hello do
     :world
   end
+
+  def test_message_for_phoenix do
+    "Hello, from Nerves"
+  end
 end
